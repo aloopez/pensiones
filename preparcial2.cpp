@@ -119,7 +119,7 @@ double calcular_sbr(int t,int w,int ibcC,int ibcs,int n,int anios, float ipcr, f
         suma2=suma2+ibcs*fi;
     }
 
-    sbr=suma1+suma2/n;
+    sbr=(suma1+suma2)/n;
 
     return sbr;
     
